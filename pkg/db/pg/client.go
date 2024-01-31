@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"platform_common/pkg/db"
+	"github.com/thesameglebich/platform_common/pkg/db"
 )
 
 type pgClient struct {

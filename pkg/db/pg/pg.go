@@ -6,8 +6,7 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-
-	"platform_common/pkg/db"
+	"github.com/thesameglebich/platform_common/pkg/db"
 )
 
 type key string

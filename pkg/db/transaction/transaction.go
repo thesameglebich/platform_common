@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/jackc/pgx/v4"
-	"platform_common/pkg/db"
-	"platform_common/pkg/db/pg"
+	"github.com/thesameglebich/platform_common/pkg/db"
+	"github.com/thesameglebich/platform_common/pkg/db/pg"
 )
 
 type manager struct {
